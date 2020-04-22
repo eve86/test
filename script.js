@@ -4,5 +4,6 @@ $(function () {
   });
   $(".hide-nav").click(function () {
     $(this).fadeOut();
-  })
+  });
 });
+
