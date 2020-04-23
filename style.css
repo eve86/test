@@ -148,7 +148,7 @@ body {
 
 #section1-wrapper {
 	margin: 80px 250px;
-	text-align: center;
+  text-align: center;
 }
 
 #section1-wrapper h3{
@@ -235,6 +235,7 @@ body {
 #section3-wrapper{
 	width: 100%;
 	display: flex;
+	flex-wrap: wrap;
 }
 
 .section3-item{
@@ -316,8 +317,12 @@ footer {
 		margin: 0 10px;
 		line-height: 14px;
 	}
+	.section3-item {
+		width: 90%;
+		margin: 0 auto;
+	}
 	.section3-item p{
-		margin: 10px 0;
-		font-size: 10px;
+		margin: 20px 0;
+		font-size: 20px;
 	}
 }
